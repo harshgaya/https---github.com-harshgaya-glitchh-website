@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import HomePage from './components/Home/HomePage'
+import AboutPage from './components/About/AboutPage'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   return (
     <div>
 
-      <HomePage />
+      {/* <HomePage /> */}
+      <AboutPage />
 
     </div>
   )
