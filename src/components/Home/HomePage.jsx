@@ -1,6 +1,7 @@
 import './HomePage.css';
 import React from 'react';
 import PageFooter from './page_footer';
+import NavbarPlane from '../Navbar/NavbarPlane';
 
 
 
@@ -9,6 +10,7 @@ function HomePage() {
     return (
         <React.Fragment>
             <div className="home-page1">
+                <NavbarPlane />
                 <div className="connecting-gamers-text">
                     <h1 className='heading-text1'>Connecting Gamers Like</h1>
                     <h1 className='heading-text2'>Never Before.</h1>
@@ -19,7 +21,7 @@ function HomePage() {
             <div className="home-page2">
 
                 <h1 className='heading-text3'>Who we are</h1>
-                <p className='long-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p className='long-text'>Modern day gamers currently seek a platform that houses the entire gaming community under one big roof. Glitchh serves as a global means of expression in helping gamers to pal around and fraternise with like-minded individuals in a phenomenal manner. </p>
 
                 <div className="divider"></div>
 
