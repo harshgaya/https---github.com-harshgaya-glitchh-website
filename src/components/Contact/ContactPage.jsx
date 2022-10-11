@@ -32,7 +32,7 @@ function ContactPage() {
                 <Navbar />
                 <div className="contact-container">
                     <h5 className='contact_subheading'>&#8212; Our Contact Details</h5>
-                    <h1 className='contact-heading'>Proin tincidunt. </h1>
+                    <h1 className='contact-heading'>Get in touch with us</h1>
                     <p className='contact-large-text'>Maecenas vitae dolor et urna porta condimentum. Vestibulum finibus accumsan blandit. </p>
                 </div>
                 <div className="contact-details-box">

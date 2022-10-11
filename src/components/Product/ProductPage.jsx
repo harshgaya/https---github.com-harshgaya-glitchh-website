@@ -26,7 +26,7 @@ function ProductPage() {
 
                     <div className="ProductPage-Container">
                         <h5 className='product-subheading'>About Wrecked eSports &#8212;</h5>
-                        <h1 className='product-heading'>Proin tincidunt eget justo ullamcorper.</h1>
+                        <h1 className='product-heading'>Collaborate to advance the esports.</h1>
                         <div className="product-space"></div>
                         <p className='product-large-text'>Through Wrecked Esports, gaming and esports professionals collaborate to advance the esports and gaming industries. The organization's primary goal is to assist aspiring gaming content creators to monetize their content through mentorship and brand integration, as well as to provide platforms and publishers with thetools to reach and retain audiences.</p>
 
@@ -101,7 +101,7 @@ function ProductPage() {
                 <div className='productPage-Container5'>
 
                     <div className="productPage-Container6">
-                        <h5 className='product-subheading'>Why us ? &#8212;</h5>
+                        <h5 className='product-subheading'> &#8212; Why us ?</h5>
 
                         <h1 className='product-heading'>Gaming is the <span className='fast-text'>fastest-growing</span> and the <br /><span className='most-text'>most consumed </span>form of entertainment
                             . </h1>

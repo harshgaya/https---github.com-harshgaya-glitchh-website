@@ -7,7 +7,9 @@ function Navbar() {
         <div className="navbar">
             <div className="navbar-container">
 
-                <img src={logo} alt="" />
+                <NavLink to='/'> <img src={logo} alt="" /></NavLink>
+
+
 
                 <div className="navbar-menus">
                     <NavLink to='/AboutUs'><h3>Who we are</h3></NavLink>

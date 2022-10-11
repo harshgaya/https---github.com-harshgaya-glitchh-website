@@ -8,7 +8,8 @@ function NavbarPlane() {
         <div className="navbarPlane">
             <div className="navbarPlane-container">
 
-                <img src={logo} alt="" />
+
+                <NavLink to='/'> <img src={logo} alt="" /></NavLink>
 
                 <div className="navbar-menus">
                     <NavLink to='/AboutUs'><h3>Who we are</h3></NavLink>

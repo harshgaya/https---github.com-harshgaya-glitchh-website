@@ -6,6 +6,9 @@ import chatImg from '../../assets/Home/chat.png';
 import glitchhImg from '../../assets/Home/glitchh.png';
 import monitizeImg from '../../assets/Home/Monitize.png';
 import newsImg from '../../assets/Home/news.png';
+import gamer from '../../assets/Home/gamer.png';
+import mobileGame from '../../assets/Home/mobile-game.png';
+import team from '../../assets/Home/team.png';
 
 
 
@@ -26,16 +29,21 @@ function HomePage() {
 
                 <h1 className='heading-text3'>Who we are</h1>
                 <p className='long-text'>Modern day gamers currently seek a platform that houses the entire gaming community under one big roof. Glitchh serves as a global means of expression in helping gamers to pal around and fraternise with like-minded individuals in a phenomenal manner. </p>
+                <div className="big-space"></div>
 
                 <div className="divider"></div>
+                <div className="big-space"></div>
 
                 <h2 className="heading-text4">Tag along for the love of gaming</h2>
                 <p className='small-text'>Form covens that help you blossom .Reckon Glitchh as a fantasized destination for gamers</p>
+                <div className="medium-space"></div>
 
                 <div className="container">
 
                     <div className="box">
-                        <div className="white_box" />
+                        <img src={gamer} className="white_box" />
+                        <div className='small-space'></div>
+
 
 
                         <p className='take-care-text'>We acknowledge your passion </p>
@@ -43,7 +51,8 @@ function HomePage() {
 
                     </div>
                     <div className="box">
-                        <div className="white_box" />
+                        <img src={team} className="white_box" />
+                        <div className='small-space'></div>
 
 
                         <p className='take-care-text'>Of one mind with one voice </p>
@@ -51,7 +60,8 @@ function HomePage() {
 
                     </div>
                     <div className="box">
-                        <div className="white_box" />
+                        <img src={mobileGame} className="white_box" />
+                        <div className='small-space'></div>
 
 
                         <p className='take-care-text'> We take care of your passion</p>
@@ -60,9 +70,14 @@ function HomePage() {
                     </div>
 
                 </div>
+                <div className="big-space"></div>
                 <div className="divider"></div>
+                <div className="big-space"></div>
+
                 <h1 className='heading-text3'>What we offer</h1>
                 <p className='long-text'>Learn How To Build Your Gaming Network With Glitchh</p>
+                <div className="medium-space"></div>
+                <div className="medium-space"></div>
 
                 <div className="container1">
 
@@ -78,6 +93,7 @@ function HomePage() {
 
 
                 </div>
+                <div className="big-space"></div>
                 <div className="container1">
                     <div className="container1-text">
 
@@ -93,6 +109,7 @@ function HomePage() {
 
 
                 </div>
+                <div className="big-space"></div>
                 <div className="container1">
 
                     <img src={newsImg} className="box2">
@@ -107,6 +124,7 @@ function HomePage() {
 
 
                 </div>
+                <div className="big-space"></div>
                 <div className="container1">
                     <div className="container1-text">
 
@@ -122,6 +140,7 @@ function HomePage() {
 
 
                 </div>
+                <div className="big-space"></div>
 
 
 
